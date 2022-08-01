@@ -1,22 +1,22 @@
 {
-  "name": "study-beats-fm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "study",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Adam Patrick ",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^6.0.0",
-    "react-icons": "^4.3.1",
-    "react-router-dom": "^6.2.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^6.2.2",
+    "redux": "^4.1.2",
+    "video-react": "^0.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.7.2"
   }
 }
